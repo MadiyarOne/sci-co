@@ -148,6 +148,7 @@ main {
 
   main {
     margin: 0;
+    
   }
   .footer {
     margin-bottom: 5rem;
@@ -420,7 +421,7 @@ h4 {
 .select-box {
   position: relative;
   display: flex;
-  width: 400px;
+  width: 19rem;
   flex-direction: column;
 }
 
