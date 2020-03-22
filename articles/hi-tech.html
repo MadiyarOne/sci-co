@@ -1,0 +1,259 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="theme.js"></script>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Baloo+2|Spartan&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+  <title>Mad++</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a href="../index.html" class="nav-link nav-link1">
+          <span class="link-text logo-text">sci-cho</span>
+          <svg
+            height="512pt"
+            viewBox="-28 0 512 512"
+            width="512pt"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m449.023438 383.5c-32.398438 56.101562-141.597657 25.800781-220.800782-9.902344-20.097656-9-38.101562-18.296875-52.5-26.699218-49.796875-28.800782-92.699218-61.800782-124.796875-96l22.199219-20.398438c29.398438 31.5 71.097656 63.601562 117.597656 90.597656 12.601563 7.203125 25.203125 13.800782 37.5 19.800782 96.300782 47.101562 179.101563 54.601562 195 27.601562 27.300782-47.703125-102.898437-145.800781-157.5-177.601562-12.597656-7.199219-25.199218-13.800782-37.5-19.800782-96.300781-47.097656-179.398437-54.597656-195-27.597656-5.097656 9.300781-3 24 6.601563 42l-26.699219 14.101562c-18.300781-35.101562-13.1992188-58.203124-5.699219-71.101562 28.796875-49.800781 126.597657-33.601562 220.796875 9.601562 17.703125 8.097657 35.402344 17.097657 52.5 26.996094 71.402344 41.101563 209.101563 147.601563 168.300782 218.402344zm0 0"
+              fill="#ff637b"
+            />
+            <path
+              d="m449.023438 383.5c-32.398438 56.101562-141.597657 25.800781-220.800782-9.902344v-32.699218c96.300782 47.101562 179.101563 54.601562 195 27.601562 27.300782-47.703125-102.898437-145.800781-157.5-177.601562-12.597656-7.199219-25.199218-13.800782-37.5-19.800782v-32.996094c17.703125 8.097657 35.402344 17.097657 52.5 26.996094 71.402344 41.101563 209.101563 147.601563 168.300782 218.402344zm0 0"
+              fill="#e63950"
+            />
+            <path
+              d="m22.726562 256.9375h-.03125c-21.472656-12.421875-28.855468-40.003906-16.449218-61.476562 12.464844-21.585938 39.96875-28.871094 61.480468-16.46875 21.511719 12.441406 28.890626 39.914062 16.464844 61.46875-12.398437 21.4375-39.957031 28.882812-61.464844 16.476562zm0 0"
+              fill="#ff637b"
+            />
+            <path
+              d="m283.722656 403.300781c12.601563-41.398437 19.5-93.601562 19.5-147.300781 0-128.699219-39.597656-226-75-226-35.398437 0-75 97.300781-75 226s39.601563 226 75 226c10.5 0 22.5-9.300781 33.300782-26.398438l25.199218 15.898438c-21 33.601562-43.5 40.5-58.5 40.5-68.101562 0-105-132.398438-105-256s36.898438-256 105-256c68.101563 0 105 132.398438 105 256 0 57.300781-7.199218 111.300781-21 156zm0 0"
+              fill="#97e9d7"
+            />
+            <g fill="#6cb">
+              <path
+                d="m261.523438 455.601562 25.199218 15.898438c-21 33.601562-43.5 40.5-58.5 40.5v-30c10.5 0 22.5-9.300781 33.300782-26.398438zm0 0"
+              />
+              <path
+                d="m333.222656 256c0 57.300781-7.199218 111.300781-21 156l-28.5-8.699219c12.601563-41.398437 19.5-93.601562 19.5-147.300781 0-128.699219-39.597656-226-75-226v-30c68.101563 0 105 132.398438 105 256zm0 0"
+              />
+              <path
+                d="m288.222656 482c-24.8125 0-45-21.1875-45-46s20.1875-45 45-45c24.816406 0 45 20.1875 45 45s-20.183594 46-45 46zm0 0"
+              />
+            </g>
+            <path
+              d="m280.722656 346.902344c-14.398437 8.398437-32.699218 17.699218-52.5 26.699218-79.5 35.699219-188.699218 65.699219-220.800781 9.898438-40.796875-70.496094 96.601563-177 168.300781-218.398438 17.703125-10.199218 35.101563-19.199218 52.5-27.300781 32.101563-14.699219 63.601563-25.800781 93-32.699219l6.902344 29.398438c-30.902344 6.898438-65.402344 19.800781-99.902344 36.597656-12.597656 6-25.199218 12.601563-37.5 19.800782-58.5 33.902343-183.898437 131.699218-157.5 177.601562 15.902344 27 98.699219 19.5 195-27.597656 12.300782-6 24.902344-12.601563 37.5-19.800782 58.5-33.902343 183.902344-131.699218 157.5-177.601562-5.398437-9.300781-19.5-14.699219-39.597656-15.601562l1.199219-30c39.300781 1.800781 56.699219 17.703124 64.199219 30.601562 40.800781 70.5-96.601563 177-168.300782 218.402344zm0 0"
+              fill="#ffd396"
+            />
+            <path
+              d="m328.125 134.5c-30.902344 6.898438-65.402344 19.800781-99.902344 36.597656v-33.296875c32.101563-14.703125 63.601563-25.800781 93-32.703125zm0 0"
+              fill="#ffb64c"
+            />
+            <path
+              d="m280.722656 346.902344c-14.398437 8.398437-32.699218 17.699218-52.5 26.699218v-32.699218c12.300782-6 24.902344-12.601563 37.5-19.800782 58.5-33.902343 183.902344-131.699218 157.5-177.601562-5.398437-9.300781-19.5-14.699219-39.597656-15.601562l1.199219-30c39.300781 1.800781 56.699219 17.703124 64.199219 30.601562 40.800781 70.5-96.601563 177-168.300782 218.402344zm0 0"
+              fill="#ffb64c"
+            />
+            <path
+              d="m315.132812 136.558594c-12.394531-21.519532-4.996093-49.089844 16.476563-61.496094 21.488281-12.390625 49.011719-5.101562 61.46875 16.496094 12.390625 21.429687 5.140625 48.96875-16.46875 61.449218-21.488281 12.394532-49.046875 5.023438-61.476563-16.449218zm0 0"
+              fill="#ffb64c"
+            />
+            <path
+              d="m273.222656 256c0 24.902344-20.097656 45-45 45-24.898437 0-45-20.097656-45-45s20.101563-45 45-45c24.902344 0 45 20.097656 45 45zm0 0"
+              fill="#725d57"
+            />
+            <path
+              d="m228.222656 301v-90c24.902344 0 45 20.097656 45 45s-20.097656 45-45 45zm0 0"
+              fill="#53433f"
+            />
+          </svg>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="science.html" class="nav-link">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="space-shuttle"
+            class="svg-inline--fa fa-space-shuttle fa-w-20"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 512"
+          >
+            <path
+              fill="currentColor"
+              d="M592.604 208.244C559.735 192.836 515.777 184 472 184H186.327c-4.952-6.555-10.585-11.978-16.72-16H376C229.157 137.747 219.403 32 96.003 32H96v128H80V32c-26.51 0-48 28.654-48 64v64c-23.197 0-32 10.032-32 24v40c0 13.983 8.819 24 32 24v16c-23.197 0-32 10.032-32 24v40c0 13.983 8.819 24 32 24v64c0 35.346 21.49 64 48 64V352h16v128h.003c123.4 0 133.154-105.747 279.997-136H169.606c6.135-4.022 11.768-9.445 16.72-16H472c43.777 0 87.735-8.836 120.604-24.244C622.282 289.845 640 271.992 640 256s-17.718-33.845-47.396-47.756zM488 296a8 8 0 0 1-8-8v-64a8 8 0 0 1 8-8c31.909 0 31.942 80 0 80z"
+            ></path>
+          </svg>
+          <span class="link-text">Science</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="IT.html" class="nav-link">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="laptop-code"
+            class="svg-inline--fa fa-laptop-code fa-w-20"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 512"
+          >
+            <path
+              fill="currentColor"
+              d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"
+            ></path>
+          </svg>
+          <span class="link-text">IT/Code</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="hi-tech.html" class="nav-link">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="microchip"
+            class="svg-inline--fa fa-microchip fa-w-16"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="currentColor"
+              d="M416 48v416c0 26.51-21.49 48-48 48H144c-26.51 0-48-21.49-48-48V48c0-26.51 21.49-48 48-48h224c26.51 0 48 21.49 48 48zm96 58v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42V88h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zm0 96v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42v-48h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zm0 96v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42v-48h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zm0 96v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42v-48h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zM30 376h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6zm0-96h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6zm0-96h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6zm0-96h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6z"
+            ></path>
+          </svg>
+          <span class="link-text">Hi-tech</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="games.html" class="nav-link">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="gamepad"
+            class="svg-inline--fa fa-gamepad fa-w-20"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 512"
+          >
+            <path
+              fill="currentColor"
+              d="M480.07 96H160a160 160 0 1 0 114.24 272h91.52A160 160 0 1 0 480.07 96zM248 268a12 12 0 0 1-12 12h-52v52a12 12 0 0 1-12 12h-24a12 12 0 0 1-12-12v-52H84a12 12 0 0 1-12-12v-24a12 12 0 0 1 12-12h52v-52a12 12 0 0 1 12-12h24a12 12 0 0 1 12 12v52h52a12 12 0 0 1 12 12zm216 76a40 40 0 1 1 40-40 40 40 0 0 1-40 40zm64-96a40 40 0 1 1 40-40 40 40 0 0 1-40 40z"
+            ></path>
+          </svg>
+          <span class="link-text">Computer games</span>
+        </a>
+      </li>
+
+      <li class="nav-item" id="themeButton">
+        <a href="login.html" class="nav-link">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="far"
+            data-icon="hand-spock"
+            class="svg-inline--fa fa-hand-spock fa-w-16"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="currentColor"
+              d="M501.03053,116.17605c-19.39059-31.50779-51.24406-35.72849-66.31044-35.01756-14.11325-50.81051-62.0038-54.08-70.73816-54.08a74.03091,74.03091,0,0,0-72.23816,58.916l-4.64648,22.66014-13.68357-53.207c-9.09569-35.37107-46.412-64.05074-89.66-53.07223a73.89749,73.89749,0,0,0-55.121,78.94722,73.68273,73.68273,0,0,0-64.8495,94.42181l24.35933,82.19721c-38.24017-7.54492-62.79677,16.18358-68.11512,21.84764a73.6791,73.6791,0,0,0,3.19921,104.19329l91.36509,85.9765A154.164,154.164,0,0,0,220.62279,512h107.4549A127.30079,127.30079,0,0,0,452.3392,413.86139l57.623-241.96272A73.20274,73.20274,0,0,0,501.03053,116.17605Zm-37.7597,44.60544L405.64788,402.74812a79.46616,79.46616,0,0,1-77.57019,61.25972H220.62279a106.34052,106.34052,0,0,1-73.1366-28.998l-91.369-85.98041C31.34381,325.72669,66.61133,288.131,91.39644,311.5392l51.123,48.10739c5.42577,5.10937,13.48239.71679,13.48239-5.82617a246.79914,246.79914,0,0,0-10.17771-70.1523l-36.01362-121.539c-9.7324-32.88279,39.69916-47.27145,49.38664-14.625l31.3437,105.77923c5.59374,18.90428,33.78119,10.71288,28.9648-8.00781L177.06427,80.23662c-8.50389-33.1035,41.43157-45.64646,49.86515-12.83593l47.32609,184.035c4.42773,17.24218,29.16207,16.5039,32.71089-.80468l31.791-154.9706c6.81054-33.1074,57.51748-24.10741,50.11906,11.96288L360.32764,246.78924c-3.72265,18.10936,23.66793,24.63084,28.05659,6.21679L413.185,148.85962C421.1498,115.512,471.14,127.79713,463.27083,160.78149Z"
+            ></path>
+          </svg>
+          <span class="link-text">Login</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="start">
+      <h2>Oi, science!</h2>
+      <div class="tumblr">
+        <label class="switch">
+          <input type="checkbox" onclick="myFunction()" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+    <h1 align="center">Science is fun!</h1>
+    <h3 >
+      Look, a slider with relevant articles.
+    </h3>
+    <div class="sliderImage"></div>
+    <div class="art1">
+      <p>
+        Hello and Welcome to my page. This site was created as final project for
+        Web examination, by 1st year student of Astana IT university. In
+        general, this site is all about science and code articles and also about
+        hi-tech and computer game industry news. You are welcome to walk
+        throughout the site, press anything on it, and overall play with it.
+      </p>
+      <p>
+        So, it's better for you to start, and if you will have question my
+        contacts are below. Peace!)
+      </p>
+      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+      <div class="parallax"></div>
+      
+  
+    </div>
+    
+  </main>
+
+    
+  </div>
+  <div class="overlay"><span class="loader"><span class="loader-inner"></span></span></div>
+
+  <footer class="footer">
+    <p>
+      SCI-CHO is site created to provide multicomplex and diffucult science
+      topics/news/discussions in reachable, partly simplified and interesing
+      form. Because at the core - science suppose to be interesting!)
+    </p>
+    <p>
+      Copyright © 2020 All Rights Reserved by <a href="">AITU</a>(Astana IT
+      University).Made by Ussabekov Madiyar. Contact me below.
+    </p>
+    <div class="soc">
+     <a href="https://t.me/MrMaddy"><i class="fab fa-telegram"></i></a>
+      <a href="https://twitter.com/M4Dblack"><i class="fab fa-twitter"></i></a>
+
+      <a href="https://www.picuki.com/profile/madiyar.one"><i class="fab fa-instagram insta"></i></a>
+
+      <a href="https://vk.com/id434249422"><i class="fab fa-vk"></i></a>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/7c456e093a.js"
+    crossorigin="anonymous"
+  ></script>
+  
+  
+</body>

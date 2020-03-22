@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
+
+.cont {
+  position: relative;
+  width: 25%;
+  height: 400px;
+  padding: 10px 25px;
+  margin: 10vh auto;
+
+  border-radius: 8px;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: #606060;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 30px auto;
+}
+
+.user,
+.pass,
+.login1 {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.user,
+.pass {
+  background: #ecf0f1;
+}
+
+.login1 {
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  background: coral;
+  transition: background 0.4s ease;
+}
+
+.login1:hover {
+  background: tomato;
+}
+
+@media only screen and (min-width: 280px) {
+  .cont {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .cont {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cont {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .cont {
+    width: 30%;
+  }
+}
+.form input {
+  padding: 1rem;
+}
