@@ -1,13 +1,12 @@
 .parent > div {
   border-style: solid;
-  height: 20rem;
+  height: 18.5rem;
 }
 @media only screen and (max-width: 1000px) {
   .parent > div {
     border-style: solid;
     height: 20rem;
     margin-top: 10px;
-
   }
   .parent {
     margin-top: 10vh;
@@ -25,6 +24,10 @@
 
   .div1 {
     grid-area: 1 / 1 / 4 / 4;
+    background: url(../img/touch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ;
   }
   .div2 {
     grid-area: 1 / 4 / 4 / 6;
@@ -51,3 +54,103 @@
     grid-area: 7 / 6 / 10 / 8;
   }
 }
+.div1 {
+  background: url(https://www.metmuseum.org/-/media/images/art/collection-landing-page/open-access/open-access_hokusai_great-wave.jpg?la=en&h=360&w=570&la=en&hash=8010FF0BCCDBAF6BAFDA2BBBFC06A581);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: ;
+}
+.div4 {
+  background-image: url(https://i.gifer.com/Sdos.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+  .div2 {
+   
+    background-image: url(https://images.alphacoders.com/665/thumb-1920-665093.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .div3 {
+   
+   
+    background-image: url(https://image.winudf.com/v2/image/Y29tLmVyaWNoaG9oZW5zdGVpbi5zY2llbmNld2FsbHBhcGVyc19zY3JlZW5fMF8xNTA5NjE3NzA3XzA3Nw/screen-0.jpg?fakeurl=1&type=.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .div4 {
+   
+    background-image: url(../img/20.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .div5 {
+   
+    background-image: url(../img/read.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .div6 {
+   
+    background-image: url(https://i.gifer.com/fy5m.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .div7 {
+   
+    background-image: url(https://images6.alphacoders.com/341/thumb-1920-341538.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .div8 {
+   
+    background-image: url(../img/21.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .div9 {
+   
+    background-image: url(../img/23.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .parent p {
+      padding: 0.2rem;
+      background: white;
+      width: 6rem;
+      margin: 0.5rem;
+      border-radius: 10px;
+      color: black;
+  }
+  .parent a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    z-index: -99;
+}
+.parent p {
+    z-index: 1;
+    transition: 333ms ease-in-out;
+}
+.parent div:hover p {
+    background: tomato;
+    color: white;
+    padding: 1rem;
+    width: 7.5rem;
+    font-size: 1.2rem;
+    
+    
+}
+
