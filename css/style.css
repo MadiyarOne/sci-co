@@ -168,6 +168,11 @@ main {
     margin: 0.8rem;
     font-size: 1.3rem;
   }
+  .nav-item:last-child {
+    margin: 0;
+    margin-left: -4%;
+    
+  }
 }
 
 /* Large screens */
