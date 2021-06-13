@@ -2,7 +2,7 @@ function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
-    
+
 function loginwork() {
   var a = document.getElementById("login").value;
   var b = document.getElementById("password").value;
@@ -14,8 +14,8 @@ function loginwork() {
   }
 }
 
-$(window).on("load", function() {
-  $(".overlay").fadeOut("fast") ;
+$(window).on("load", function () {
+  $(".overlay").fadeOut("fast");
 });
 const selected = document.querySelector(".selected");
 const optionsContainer = document.querySelector(".options-container");
@@ -41,7 +41,7 @@ optionsList.forEach(o => {
   });
 });
 
-searchBox.addEventListener("keyup", function(e) {
+searchBox.addEventListener("keyup", function (e) {
   filterList(e.target.value);
 });
 
@@ -56,9 +56,10 @@ const filterList = searchTerm => {
     }
   });
 };
-  
-    
-    
+
+function createMe() {
+  console.log('create');
+}
 
 
 
