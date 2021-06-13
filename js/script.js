@@ -64,3 +64,7 @@ function createMe() {
 function testChange() {
   console.log('test change');
 }
+
+function forPullRequest() {
+  console.log('pull request');
+}
