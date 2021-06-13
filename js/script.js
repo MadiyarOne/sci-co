@@ -65,6 +65,6 @@ function testChange() {
   console.log('test change');
 }
 
-function forPullRequest() {
+function forPullRequest_SecondTime() {
   console.log('pull request');
 }
